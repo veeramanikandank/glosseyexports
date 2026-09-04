@@ -1,0 +1,141 @@
+<?php
+    session_start();
+    echo isset($_SESSION['login']);
+    if(isset($_SESSION['login'])) {
+      header('LOCATION:index.php'); die();
+    }
+?>
+	<!DOCTYPE html>
+	<html dir="ltr" lang="en">
+
+	<head>
+		<meta name="viewport" content="width=device-width,initial-scale=1.0" />
+		<meta charset="utf-8">
+		<meta name="description" content="Glossey Exports">
+		<meta name="keywords" content="glosseyexports,glossey,exports,garments">
+		<meta name="author" content="Glossey exports">
+		<title>Glossey Exports</title>
+		<link rel="icon" type="image/png" href="img/favicon.png">
+		<link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+		<link rel="apple-touch-icon" sizes="57x57" href="img/apple-touch-icon-57x57.png">
+		<link rel="apple-touch-icon" sizes="72x72" href="img/apple-touch-icon-72x72.png">
+		<link rel="apple-touch-icon" sizes="76x76" href="img/apple-touch-icon-76x76.png">
+		<link rel="apple-touch-icon" sizes="114x114" href="img/apple-touch-icon-114x114.png">
+		<link rel="apple-touch-icon" sizes="120x120" href="img/apple-touch-icon-120x120.png">
+		<link rel="apple-touch-icon" sizes="144x144" href="img/apple-touch-icon-144x144.png">
+		<link rel="apple-touch-icon" sizes="152x152" href="img/apple-touch-icon-152x152.png">
+		<link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon-180x180.png">
+		<link href="https://fonts.googleapis.com/css?family=Poppins:400,600,700,800" rel="stylesheet">
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/magnific-popup.css">
+		<link rel="stylesheet" href="css/owl.carousel.min.css">
+		<link rel="stylesheet" href="css/animate.css">
+		<link rel="stylesheet" href="css/main.css">
+		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="css/meanmenu.min.css">
+		<link rel="stylesheet" href="css/icofont.min.css">
+		<link rel="stylesheet" href="css/responsive.css"> </head>
+
+	<body class="home-v1">
+		<div id="preloader">
+			<div id="preloader-status"></div>
+		</div>
+		<header>
+			<div class="header-top">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-7 col-sm-8">
+							<div class="header-left"> <span class="social-title">Need Any Help?</span>
+								<ul>
+									<li><i class="icofont-phone"></i>+91 (0)421 4328182</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="hd-sec">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-3 col-sm-12 col-xs-8">
+							<div class="logo">
+								<a href="index.php"><img src="img/logo.png" alt="" /></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<div class="pagehding-sec">
+			<div class="images-overlay"></div>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="page-heading">
+							<h1>Login</h1> </div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="about-us-sec pt-100 pb-50">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6">
+						<div class="about-desc">
+							<?php
+      if(isset($_POST['submit'])){
+        $username = $_POST['username']; $password = $_POST['password'];
+        if($username === 'visitor' && $password === 'Welcome@1'){
+          $_SESSION['login'] = true; header('LOCATION:home.php'); die();
+        } {
+          echo "<div class='alert alert-danger'>Username and Password do not match.</div>";
+        }
+
+      }
+    ?>
+								<form action="" method="post">
+									<div class="form-group">
+										<label for="username">Username:</label>
+										<input type="text" class="form-control" id="username" name="username" required> </div>
+									<div class="form-group">
+										<label for="pwd">Password:</label>
+										<input type="password" class="form-control" id="pwd" name="password" required> </div>
+									<button type="submit" name="submit" class="btn btn-default">Login</button>
+								</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<footer class="footer">
+			<div class="footer-overlay"></div>
+			<div class="footer-sec">
+				<div class="container">
+					<div class="row">
+						<div class="footer-bottom-sec">
+							<div class="container">
+								<div class="row">
+									<div class="col-md-8 col-sm-12">
+										<div class="copy-right"> <span>&copy; 2022 glossey exports. all right reserved </span> </div>
+									</div>
+								</div>
+							</div>
+						</div>
+		</footer>
+		<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+		<script src="js/jquery-2.2.4.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/isotope.pkgd.min.js"></script>
+		<script src="js/jquery.magnific-popup.min.js"></script>
+		<script src="js/owl.carousel.min.js"></script>
+		<script src="js/owl.animate.js"></script>
+		<script src="js/jquery.scrollUp.min.js"></script>
+		<script src="js/jquery.counterup.min.js"></script>
+		<script src="js/modernizr.min.js"></script>
+		<script src="js/waypoints.min.js"></script>
+		<script src="js/jquery.meanmenu.min.js"></script>
+		<script src="js/imagesloaded.pkgd.min.js"></script>
+		<script src="js/custom.js"></script>
+	</body>
+
+	</html>

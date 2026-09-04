@@ -1,0 +1,401 @@
+<?php
+    include('session.php')
+?>
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+<head>
+
+<meta name="viewport" content="width=device-width,initial-scale=1.0" />
+<meta charset="utf-8">
+<meta name="description" content="Glossey Exports">
+<meta name="keywords" content="glosseyexports,glossey,exports,garments">
+<meta name="author" content="Glossey exports">
+
+<title>Glossey Exports</title>
+
+<link rel="icon" type="image/png" href="img/favicon.png">
+<link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="57x57" href="img/apple-touch-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="72x72" href="img/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="img/apple-touch-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="img/apple-touch-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="img/apple-touch-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="img/apple-touch-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="img/apple-touch-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon-180x180.png">
+
+<link href="https://fonts.googleapis.com/css?family=Poppins:400,600,700,800" rel="stylesheet">
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/magnific-popup.css">
+<link rel="stylesheet" href="css/owl.carousel.min.css">
+<link rel="stylesheet" href="css/animate.css">
+<link rel="stylesheet" href="css/main.css">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="css/meanmenu.min.css">
+<link rel="stylesheet" href="css/icofont.min.css">
+<link rel="stylesheet" href="css/responsive.css">
+
+
+<!--[if lt IE 9]>
+	  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+	  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<![endif]-->
+</head>
+<body class="home-v1">
+
+<div id="preloader">
+<div id="preloader-status"></div>
+</div>
+
+
+<header>
+
+<div class="header-top">
+<div class="container">
+  <div class="row ">
+    <div class="col-md-7 col-sm-8">
+    </div>
+    <div class="col-md-5 col-sm-4">
+    <div class="header-right-div">
+        <li style="color:white;">Welcome Visitor<a style="color:white;" href="logout.php"></i> Sign Out</a></li>
+      </div> </div> </div>
+<div class="row">
+<div class="col-md-7 col-sm-8">
+<div class="header-left">
+<span class="social-title">Need Any Help?</span>
+<ul>
+<li><i class="icofont-phone"></i>+91 (0)421 4328182</li>
+</ul>
+</div>
+</div>
+
+</div>
+</div>
+</div>
+
+
+<div class="hd-sec">
+<div class="container">
+<div class="row">
+
+<div class="col-md-3 col-sm-12 col-xs-8">
+<div class="logo">
+<a href="home.php"><img src="img/logo.png" alt="" /></a>
+</div>
+</div>
+
+
+<div class="mobile-nav-menu"></div>
+<div class="col-md-9 col-sm-9 nav-menu">
+<div class="menu">
+<nav id="main-menu" class="main-menu">
+<ul>
+<li class="active"><a href="home.php">Home</a></li>
+<li><a href="about.php">About</a></li>
+<li><a href="service.php">Services</a>
+</li>
+<li><a href="product.php">Products</a></li>
+<li><a href="contact.php">Contact</a></li>
+</ul>
+</nav>
+
+<div class="search-bar-icon">
+<div class="site-search">
+<span data-toggle="dropdown"><i class="icofont-search-2"></i></span>
+<div class="search-forum dropdown-menu animation slideUpIn">
+<form action="#">
+<input placeholder="Search For Site" type="text">
+<input type="submit" value="Go" />
+</form>
+</div>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+</div>
+</div>
+
+</header>
+
+
+<div class="pagehding-sec">
+<div class="images-overlay"></div>
+<div class="container">
+<div class="row">
+<div class="col-md-12">
+<div class="page-heading">
+<h1>Services</h1>
+</div>
+<div class="page-breadcrumb-inner">
+<div class="page-breadcrumb">
+<div class="breadcrumb-list">
+<ul>
+<li><a href="home.php">Home</a></li>
+<li><a href="#">Services</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+<div class="service-sec pt-50 pb-0">
+<div class="container">
+<div class="row">
+<div class="service-item">
+<div class="col-md-4 col-sm-6 inner">
+<div class="media">
+<div class="service-thumb">
+<a href="#"><img src="img/Sampling-Services.jpg" alt="" /></a>
+<div class="service-icon"></div>
+</div>
+<div class="service-inner-text">
+<div class="media-left">
+<div class="service_icon">
+<i class="icofont-light-bulb"></i>
+</div>
+</div>
+<div class="media-body">
+<h2><a href="#">Sampling Services</span></a></h2>
+</div>
+<p align="justify">We develop the full set of salesman samples  from prototype by translate the design specification details into prototypes quickly which helps to  eliminates the communication challenge and cost delay.</p><br>
+<!--<a href="#" class="service-readmore">Read More <i class="fa fa-angle-right"></i></a>-->
+</div>
+</div>
+</div>
+<div class="col-md-4 col-sm-6 inner">
+<div class="media">
+<div class="service-thumb">
+<a href="#"><img src="img/Quality-Assurance.jpg" alt="" /></a>
+<div class="service-icon"></div>
+</div>
+<div class="service-inner-text">
+<div class="media-left">
+<div class="service_icon">
+<i class="icofont-certificate"></i>
+</div>
+</div>
+<div class="media-body">
+<h2><a href="#">Quality Assurance</a></h2>
+</div>
+<p align="justify">We implement quality check points throughout the manufacturing process like  oneline,mid,pre final inspections and also final random inspections with Requested AQL levels to ensure and certify that the quality of the goods shipped will meet buyer’s specifications</p>
+<!--<a href="#" class="service-readmore">Read More <i class="fa fa-angle-right"></i></a>-->
+</div>
+</div>
+</div>
+<div class="col-md-4 col-sm-6 inner">
+<div class="media">
+<div class="service-thumb">
+<a href="#"><img src="img/Pricing-Assurance.jpeg" alt="" /></a>
+<div class="service-icon"></div>
+</div>
+<div class="service-inner-text">
+<div class="media-left">
+<div class="service_icon">
+<i class="icofont-sale-discount"></i>
+</div>
+</div>
+<div class="media-body">
+<h2><a href="#">Pricing Assurance</a></h2>
+</div>
+<p align="justify">Aided by our deep knowledge of manufacturing cost components and leveraging innovative processes, we ensure that the price quotes we get for you are reliable and sustainable to maximize the customer profits.</p><br>
+<!--<a href="#" class="service-readmore">Read More <i class="fa fa-angle-right"></i></a>-->
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="row">
+<div class="service-item">
+<div class="col-md-4 col-sm-6 inner">
+<div class="media">
+<div class="service-thumb">
+ <a href="#"><img src="img/Delivery-Assurance.jpeg" alt="" /></a>
+<div class="service-icon"></div>
+</div>
+<div class="service-inner-text">
+<div class="media-left">
+<div class="service_icon">
+<i class="icofont-vehicle-delivery-van"></i>
+</div>
+</div>
+<div class="media-body">
+<h2><a href="#">Delivery Assurance </a></h2>
+</div>
+<p align="justify">We work with our manufacturer and develop a delivery plan and monitor the plan at each level.Also update OPS (Online production status) to Buyer on regular intervals so that there is no delay in delivery and provide the delivery on time.</p>
+
+</div>
+</div>
+</div>
+
+<div class="col-md-4 col-sm-6 inner">
+<div class="media">
+<div class="service-thumb">
+ <a href="#"><img src="img/Flexible-Manufacturing.jpg" alt="" /></a>
+<div class="service-icon"></div>
+</div>
+<div class="service-inner-text">
+<div class="media-left">
+<div class="service_icon">
+<i class="icofont-automation"></i>
+</div>
+</div>
+<div class="media-body">
+<h2><a href="#">Flexible Manufacturing </a></h2>
+</div>
+<p align="justify">We source from manufacturers with modular and flexible manufacturing facilities to scale up and scale down quantities as driven by the markets. </p><br><br>
+<!--<a href="#" class="service-readmore">Read More <i class="fa fa-angle-right"></i></a>-->
+</div>
+</div>
+</div>
+
+<div class="col-md-4 col-sm-6 inner">
+<div class="media">
+<div class="service-thumb">
+ <a href="#"><img src="img/Speed-Market.jpg" alt="" /></a>
+<div class="service-icon"></div>
+</div>
+<div class="service-inner-text">
+<div class="media-left">
+<div class="service_icon">
+<i class="icofont-energy-oil"></i>
+</div>
+</div>
+<div class="media-body">
+<h2><a href="#">Speed Market </a></h2>
+</div>
+<p align="justify">Our experience in delivering consistency and efficiency helps our clients to reach their products to their customers with minimal lead times</p><br><br>
+<!--<a href="#" class="service-readmore">Read More <i class="fa fa-angle-right"></i></a>-->
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+<footer class="footer">
+<div class="footer-overlay"></div>
+<div class="footer-sec">
+<div class="container">
+<div class="row">
+
+<div class="col-md-3 col-sm-6">
+<div class="footer-wedget-one">
+<h2>Company Info</h2>
+<a href="home.php" class="footer-logo"><img src="img/ft-logo.png" alt="" /></a>
+<p align="justify">Glossey exports is expertise in cotton/woven knitwear such as T-Shirts, Home Wear for Men, Women and Kids.</p>
+
+</div>
+</div>
+
+
+<div class="col-md-3 col-sm-6">
+<div class="footer-widget-menu">
+<h2>our services</h2>
+<ul>
+<li><a href="#">Sampling Services</a></li>
+<li><a href="#">Quality Assurance</a></li>
+<li><a href="#">Pricing Assurance</a></li>
+<li><a href="#">Delivery Assurance</a></li>
+<li><a href="#">Flexible Manufacturing</a></li>
+<li><a href="#">Speed Market</a></li>
+</ul>
+</div>
+</div>
+
+
+<div class="col-md-2 col-sm-6">
+<div class="footer-widget-menu">
+<h2>useful link</h2>
+<ul>
+  <li><a href="about.php">about us</a></li>
+  <li><a href="service.php">services</a></li>
+  <li><a href="product.php">products</a></li>
+  <li><a href="contact.php">Contact Us</a></li>
+</ul>
+</div>
+</div>
+
+
+<div class="col-md-4 col-sm-6">
+<div class="footer-wedget-four">
+<h2>contact form </h2>
+<div class="footer-contact-inner">
+<div class="footer-contact-info">
+<div class="footer-contact-info-icon">
+<i class="icofont-google-map"></i>
+</div>
+<div class="footer-contact-info-text">
+<span>Glossey Exports,</span>
+<span>129-Balaji Nagar, Rackkiya Palayam,</span>
+<span>Avinashi-641 654, Tamilnadu, India</span>
+</div>
+</div>
+</div>
+<div class="footer-contact-inner">
+<div class="footer-contact-info">
+<div class="footer-contact-info-icon">
+<i class="icofont-email"></i>
+</div>
+<div class="footer-contact-info-text">
+<span>glosseyexports.kumaran [at] gmail [dot] com</span>
+</div>
+</div>
+</div>
+<div class="footer-contact-inner">
+<div class="footer-contact-info">
+<div class="footer-contact-info-icon">
+<i class="icofont-telephone"></i>
+</div>
+<div class="footer-contact-info-text">
+<span>+91 (0)421 4328182</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+<div class="footer-bottom-sec">
+<div class="container">
+<div class="row">
+<div class="col-md-8 col-sm-12">
+<div class="copy-right">
+<span>&copy; 2022 glossey exports. all right reserved </span>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+</footer>
+
+
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="js/jquery-2.2.4.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/isotope.pkgd.min.js"></script>
+<script src="js/jquery.magnific-popup.min.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/owl.animate.js"></script>
+<script src="js/jquery.scrollUp.min.js"></script>
+<script src="js/jquery.counterup.min.js"></script>
+<script src="js/modernizr.min.js"></script>
+<script src="js/waypoints.min.js"></script>
+<script src="js/jquery.meanmenu.min.js"></script>
+<script src="js/imagesloaded.pkgd.min.js"></script>
+<script src="js/custom.js"></script>
+
+</body>
+</html>

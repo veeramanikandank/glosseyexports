@@ -1,0 +1,1467 @@
+<?php
+    include('session.php')
+?>
+	<!DOCTYPE html>
+	<html dir="ltr" lang="en">
+
+	<head>
+		<meta name="viewport" content="width=device-width,initial-scale=1.0" />
+		<meta charset="utf-8">
+		<meta name="description" content="Glossey Exports">
+		<meta name="keywords" content="glosseyexports,glossey,exports,garments">
+		<meta name="author" content="Glossey exports">
+		<title>Glossey Exports</title>
+		<link rel="icon" type="image/png" href="img/favicon.png">
+		<link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+		<link rel="apple-touch-icon" sizes="57x57" href="img/apple-touch-icon-57x57.png">
+		<link rel="apple-touch-icon" sizes="72x72" href="img/apple-touch-icon-72x72.png">
+		<link rel="apple-touch-icon" sizes="76x76" href="img/apple-touch-icon-76x76.png">
+		<link rel="apple-touch-icon" sizes="114x114" href="img/apple-touch-icon-114x114.png">
+		<link rel="apple-touch-icon" sizes="120x120" href="img/apple-touch-icon-120x120.png">
+		<link rel="apple-touch-icon" sizes="144x144" href="img/apple-touch-icon-144x144.png">
+		<link rel="apple-touch-icon" sizes="152x152" href="img/apple-touch-icon-152x152.png">
+		<link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon-180x180.png">
+		<link href="https://fonts.googleapis.com/css?family=Poppins:400,600,700,800" rel="stylesheet">
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/magnific-popup.css">
+		<link rel="stylesheet" href="css/owl.carousel.min.css">
+		<link rel="stylesheet" href="css/animate.css">
+		<link rel="stylesheet" href="css/main.css">
+		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="css/meanmenu.min.css">
+		<link rel="stylesheet" href="css/icofont.min.css">
+		<link rel="stylesheet" href="css/responsive.css">
+		<!--[if lt IE 9]>
+	  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+	  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<![endif]-->
+	</head>
+
+	<body class="home-v1">
+		<div id="preloader">
+			<div id="preloader-status"></div>
+		</div>
+		<header>
+			<div class="header-top">
+				<div class="container">
+					<div class="row ">
+						<div class="col-md-7 col-sm-8"> </div>
+						<div class="col-md-5 col-sm-4">
+							<div class="header-right-div">
+								<li style="color:white;">Welcome Visitor
+									<a style="color:white;" href="logout.php"></i> Sign Out</a>
+								</li>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-7 col-sm-8">
+						<div class="header-left"> <span class="social-title">Need Any Help?</span>
+							<ul>
+								<li><i class="icofont-phone"></i>+91 (0)421 4328182</li>
+							</ul>
+						</div>
+					</div>
+					<!--<div class="col-md-5 col-sm-4">
+<div class="header-right-div">
+<div class="soical-profile">
+<span class="social-title">Follow Us</span>
+<ul>
+<li><a href="#"><i class="icofont-facebook"></i></a></li>
+<li><a href="#"><i class="icofont-twitter"></i></a></li>
+<li><a href="#"><i class="icofont-linkedin"></i></a></li>
+<li><a href="#"><i class="icofont-skype"></i></a></li>
+<li><a href="#"><i class="icofont-pinterest"></i></a></li>
+</ul>
+</div>
+</div>
+</div >--></div>
+			</div>
+			</div>
+			<div class="hd-sec">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-3 col-sm-12 col-xs-8">
+							<div class="logo">
+								<a href="index.php"><img src="img/logo.png" alt="" /></a>
+							</div>
+						</div>
+						<div class="mobile-nav-menu"></div>
+						<div class="col-md-9 col-sm-9 nav-menu">
+							<div class="menu">
+								<nav id="main-menu" class="main-menu">
+									<ul>
+										<li class="active"><a href="#">Home</a></li>
+										<li><a href="about.php">About</a></li>
+										<li><a href="service.php">Services</a> </li>
+										<li><a href="product.php">Products</a></li>
+										<li><a href="contact.php">Contact</a></li>
+									</ul>
+								</nav>
+								<div class="search-bar-icon">
+									<div class="site-search"> <span data-toggle="dropdown"><i class="icofont-search-2"></i></span>
+										<div class="search-forum dropdown-menu animation slideUpIn">
+											<form action="#">
+												<input placeholder="Search For Site" type="text">
+												<input type="submit" value="Go" /> </form>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<div class="slider">
+			<div class="all-slide owl-item">
+				<div class="single-slide" style="background-image:url(img/slider-1.jpeg);">
+					<div class="slider-overlay"></div>
+					<div class="slider-wrapper">
+						<div class="slider-text">
+							<div class="slider-caption">
+								<h1>Exporter and Manufcaturer to brands over EU and India</h1>
+								<ul>
+									<li><a href="contact.php">contact us <i class="icofont-long-arrow-right"></i></a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="single-slide" style="background-image:url(img/slider-1.jpeg);">
+					<div class="slider-overlay"></div>
+					<div class="slider-wrapper">
+						<div class="slider-text">
+							<div class="slider-caption">
+								<h1>Exporter and Manufcaturer to brands over EU and India</h1>
+								<ul>
+									<li><a href="contact.php">contact us <i class="icofont-long-arrow-right"></i></a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="about-sec pt-50 pb-50">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6">
+						<div class="about-us-v2">
+							<ul class="about-tab">
+								<li class="active"><a data-toggle="tab" href="#History" aria-expanded="true">History</a></li>
+							</ul>
+							<div class="tab-content">
+								<div id="History" class="tab-pane active">
+									<div class="about-desc">
+										<h1>About Our Company</h1>
+										<p align="justify">Glossey exports is an established since 2005. One of the Leading knitted and woven garments manufacturer and exporter in Tirupur, and also offer professional sourcing services for Apparel importers and brand owners across the world. Glossey exports is expertise in cotton/woven knitwear such as T-Shirts, Home Wear for Men, Women and Kids. We are having OEKO TEX certification provided by International Association for Research and Testing in the Field of Textile and Leather Ecology.</p>
+										<!--<a href="#">Read More</a>--></div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6"> <img src="img/About.jpg" height="750px" alt="" /> </div>
+				</div>
+			</div>
+		</div>
+		<div class="pagehding-sec">
+			<div class="images-overlay"></div>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-1"></div>
+					<div class="col-md-5">
+						<div class="page-heading">
+							<div class="faq-single">
+								<div class="media">
+									<div class="media-left">
+										<div class="icon"><i class="icofont-globe icofont-2x"></i></div>
+									</div>
+									<div class="media-body">
+										<h1 style="font-size:32px;">Global Provider</h1></div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-1"></div>
+					<div class="col-md-5">
+						<div class="page-heading">
+							<div class="faq-single">
+								<div class="media">
+									<div class="media-left">
+										<div class="icon"><i class="icofont-certificate icofont-2x"></i></div>
+									</div>
+									<div class="media-body">
+										<h1 style="font-size:32px;">World wide Certified</h1></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="service-sec pt-50 pb-0">
+			<div class="container">
+				<div class="row latest-project-title-sec">
+					<div class="col-md-4">
+						<div class="latest-project-title">
+							<h1>Our Service</h1> </div>
+					</div>
+					<div class="col-md-5"> </div>
+					<div class="col-md-3">
+						<div class="latest-project-button"> <a href="#">View All Service <i class="icofont-long-arrow-right"></i></a> </div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="service-item">
+						<div class="col-md-4 col-sm-6 inner">
+							<div class="media">
+								<div class="service-thumb">
+									<a href="#"><img src="img/Sampling-Services.jpg" alt="" /></a>
+									<div class="service-icon"></div>
+								</div>
+								<div class="service-inner-text">
+									<div class="media-left">
+										<div class="service_icon"> <i class="icofont-light-bulb"></i> </div>
+									</div>
+									<div class="media-body">
+										<h2><a href="#">Sampling Services</span></a></h2> </div>
+									<p align="justify">We develop the full set of salesman samples from prototype by translate the design specification details into prototypes quickly which helps to eliminates the communication challenge and cost delay.</p>
+									<br>
+									<!--<a href="#" class="service-readmore">Read More <i class="fa fa-angle-right"></i></a>--></div>
+							</div>
+						</div>
+						<div class="col-md-4 col-sm-6 inner">
+							<div class="media">
+								<div class="service-thumb">
+									<a href="#"><img src="img/Quality-Assurance.jpg" alt="" /></a>
+									<div class="service-icon"></div>
+								</div>
+								<div class="service-inner-text">
+									<div class="media-left">
+										<div class="service_icon"> <i class="icofont-certificate"></i> </div>
+									</div>
+									<div class="media-body">
+										<h2><a href="#">Quality Assurance</a></h2> </div>
+									<p align="justify">We implement quality check points throughout the manufacturing process like oneline,mid,pre final inspections and also final random inspections with Requested AQL levels to ensure and certify that the quality of the goods shipped will meet buyer’s specifications</p>
+									<!--<a href="#" class="service-readmore">Read More <i class="fa fa-angle-right"></i></a>--></div>
+							</div>
+						</div>
+						<div class="col-md-4 col-sm-6 inner">
+							<div class="media">
+								<div class="service-thumb">
+									<a href="#"><img src="img/Pricing-Assurance.jpeg" alt="" /></a>
+									<div class="service-icon"></div>
+								</div>
+								<div class="service-inner-text">
+									<div class="media-left">
+										<div class="service_icon"> <i class="icofont-sale-discount"></i> </div>
+									</div>
+									<div class="media-body">
+										<h2><a href="#">Pricing Assurance</a></h2> </div>
+									<p align="justify">Aided by our deep knowledge of manufacturing cost components and leveraging innovative processes, we ensure that the price quotes we get for you are reliable and sustainable to maximize the customer profits.</p>
+									<br>
+									<!--<a href="#" class="service-readmore">Read More <i class="fa fa-angle-right"></i></a>--></div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="service-item">
+						<div class="col-md-4 col-sm-6 inner">
+							<div class="media">
+								<div class="service-thumb">
+									<a href="#"><img src="img/Delivery-Assurance.jpeg" alt="" /></a>
+									<div class="service-icon"></div>
+								</div>
+								<div class="service-inner-text">
+									<div class="media-left">
+										<div class="service_icon"> <i class="icofont-vehicle-delivery-van"></i> </div>
+									</div>
+									<div class="media-body">
+										<h2><a href="#">Delivery Assurance </a></h2> </div>
+									<p align="justify">We work with our manufacturer and develop a delivery plan and monitor the plan at each level.Also update OPS (Online production status) to Buyer on regular intervals so that there is no delay in delivery and provide the delivery on time.</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 col-sm-6 inner">
+							<div class="media">
+								<div class="service-thumb">
+									<a href="#"><img src="img/Flexible-Manufacturing.jpg" alt="" /></a>
+									<div class="service-icon"></div>
+								</div>
+								<div class="service-inner-text">
+									<div class="media-left">
+										<div class="service_icon"> <i class="icofont-automation"></i> </div>
+									</div>
+									<div class="media-body">
+										<h2><a href="#">Flexible Manufacturing </a></h2> </div>
+									<p align="justify">We source from manufacturers with modular and flexible manufacturing facilities to scale up and scale down quantities as driven by the markets. </p>
+									<br>
+									<br>
+									<!--<a href="#" class="service-readmore">Read More <i class="fa fa-angle-right"></i></a>--></div>
+							</div>
+						</div>
+						<div class="col-md-4 col-sm-6 inner">
+							<div class="media">
+								<div class="service-thumb">
+									<a href="#"><img src="img/Speed-Market.jpg" alt="" /></a>
+									<div class="service-icon"></div>
+								</div>
+								<div class="service-inner-text">
+									<div class="media-left">
+										<div class="service_icon"> <i class="icofont-energy-oil"></i> </div>
+									</div>
+									<div class="media-body">
+										<h2><a href="#">Speed Market </a></h2> </div>
+									<p align="justify">Our experience in delivering consistency and efficiency helps our clients to reach their products to their customers with minimal lead times</p>
+									<br>
+									<br>
+									<!--<a href="#" class="service-readmore">Read More <i class="fa fa-angle-right"></i></a>--></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+    <div class="gallery-sec pt-50 pb-50">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="sec-title">
+							<h1>Products</h1>
+							<div class="border-shape"></div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="gallery-area">
+						<div class="navbarsort">
+							<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbarfiltr" aria-expanded="false"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+							<div class="shorttitle">
+								<h2>Sort Gallery</h2> </div>
+						</div>
+						<div class="collapse navbar-collapse latest--project" id="navbarfiltr">
+							<ul class="simplefilter">
+								<li class="active" data-filter="*"><span class="gallery-tab-title">All</span></li>
+								<li class="" data-filter=".GirlBaby"> <span class="gallery-tab-title">Baby Girl</span></li>
+								<li class="" data-filter=".BoyBaby"> <span class="gallery-tab-title">Baby Boy</span></li>
+								<li class="" data-filter=".GirlKids"><span class="gallery-tab-title">Girls</span></li>
+								<li class="" data-filter=".BoyKids"><span class="gallery-tab-title">Boys</span></li>
+								<li class="" data-filter=".Ladies"><span class="gallery-tab-title">Women</span></li>
+								<li class="" data-filter=".Gents"><span class="gallery-tab-title">Men</span></li>
+							</ul>
+						</div>
+						<div class="gallery-container">
+							<div class="col-xs-12 col-sm-6 col-md-3 filtr-item GirlBaby">
+								<div class="gallery-item"> <img src="/img/Baby-girl/BABY-BEACH-GIRL-01.jpg" alt="" />
+									<div class="gallery-overlay">
+										<div class="gallery-overlay-text"> <span class="gallery-button">
+                        <a href="/img/Baby-girl/BABY-BEACH-GIRL-01.jpg" class="gallery-photo"><i class="icofont-image"></i></a>
+                        </span> </div>
+									</div>
+								</div>
+							</div>
+							<div class="col-xs-12 col-sm-6 col-md-3 filtr-item GirlBaby">
+								<div class="gallery-item"> <img src="/img/Baby-girl/BABY-BEACH-GIRL-02.jpg" alt="Glossey Exports" />
+									<div class="gallery-overlay">
+										<div class="gallery-overlay-text"> <span class="gallery-button">
+                        <a href="/img/Baby-girl/BABY-BEACH-GIRL-02.jpg" class="gallery-photo"><i class="icofont-image"></i></a>
+                        </span> </div>
+									</div>
+								</div>
+							</div>
+							<div class="col-xs-12 col-sm-6 col-md-3 filtr-item GirlBaby">
+								<div class="gallery-item"> <img src="/img/Baby-girl/BABY-BEACH-GIRL-03.jpg" alt="Glossey Exports" />
+									<div class="gallery-overlay">
+										<div class="gallery-overlay-text"> <span class="gallery-button">
+                        <a href="/img/Baby-girl/BABY-BEACH-GIRL-03.jpg" class="gallery-photo"><i class="icofont-image"></i></a>
+                        </span> </div>
+									</div>
+								</div>
+							</div>
+							<div class="col-xs-12 col-sm-6 col-md-3 filtr-item GirlBaby">
+								<div class="gallery-item"> <img src="/img/Baby-girl/BABY-BEACH-GIRL-04.jpg" alt="Glossey Exports" />
+									<div class="gallery-overlay">
+										<div class="gallery-overlay-text"> <span class="gallery-button">
+                        <a href="/img/Baby-girl/BABY-BEACH-GIRL-04.jpg" class="gallery-photo"><i class="icofont-image"></i></a>
+                        </span> </div>
+									</div>
+								</div>
+							</div>
+							<div class="col-xs-12 col-sm-6 col-md-3 filtr-item GirlBaby">
+								<div class="gallery-item"> <img src="/img/Baby-girl/BABY-BEACH-GIRL-05.jpg" alt="Glossey Exports" />
+									<div class="gallery-overlay">
+										<div class="gallery-overlay-text"> <span class="gallery-button">
+                        <a href="/img/Baby-girl/BABY-BEACH-GIRL-05.jpg" class="gallery-photo"><i class="icofont-image"></i></a>
+                        </span> </div>
+									</div>
+								</div>
+							</div>
+							<div class="col-xs-12 col-sm-6 col-md-3 filtr-item GirlBaby">
+								<div class="gallery-item"> <img src="/img/Baby-girl/BABY-BEACH-GIRL-05-AOP.jpg" alt="Glossey Exports" />
+									<div class="gallery-overlay">
+										<div class="gallery-overlay-text"> <span class="gallery-button">
+                        <a href="/img/Baby-girl/BABY-BEACH-GIRL-05-AOP.jpg" class="gallery-photo"><i class="icofont-image"></i></a>
+                        </span> </div>
+									</div>
+								</div>
+							</div>
+							<div class="col-xs-12 col-sm-6 col-md-3 filtr-item GirlBaby">
+								<div class="gallery-item"> <img src="/img/Baby-girl/BABY-BEACH-GIRL-06.jpg" alt="Glossey Exports" />
+									<div class="gallery-overlay">
+										<div class="gallery-overlay-text"> <span class="gallery-button">
+                        <a href="/img/Baby-girl/BABY-BEACH-GIRL-06.jpg" class="gallery-photo"><i class="icofont-image"></i></a>
+                        </span> </div>
+									</div>
+								</div>
+							</div>
+							<div class="col-xs-12 col-sm-6 col-md-3 filtr-item GirlBaby">
+								<div class="gallery-item"> <img src="/img/Baby-girl/KR-02A.jpg" alt="Glossey Exports" />
+									<div class="gallery-overlay">
+										<div class="gallery-overlay-text"> <span class="gallery-button">
+                        <a href="/img/Baby-girl/KR-02A.jpg" class="gallery-photo"><i class="icofont-image"></i></a>
+                        </span> </div>
+									</div>
+								</div>
+							</div>
+							<div class="col-xs-12 col-sm-6 col-md-3 filtr-item GirlBaby">
+								<div class="gallery-item"> <img src="/img/Baby-girl/KR-04.jpg" alt="Glossey Exports" />
+									<div class="gallery-overlay">
+										<div class="gallery-overlay-text"> <span class="gallery-button">
+                        <a href="/img/Baby-girl/KR-04.jpg" class="gallery-photo"><i class="icofont-image"></i></a>
+                        </span> </div>
+									</div>
+								</div>
+							</div>
+							<div class="col-xs-12 col-sm-6 col-md-3 filtr-item GirlBaby">
+								<div class="gallery-item"> <img src="/img/Baby-girl/KR-05.jpg" alt="Glossey Exports" />
+									<div class="gallery-overlay">
+										<div class="gallery-overlay-text"> <span class="gallery-button">
+                        <a href="/img/Baby-girl/KR-05.jpg" class="gallery-photo"><i class="icofont-image"></i></a>
+                        </span> </div>
+									</div>
+								</div>
+							</div>
+							<div class="col-xs-12 col-sm-6 col-md-3 filtr-item GirlBaby">
+								<div class="gallery-item"> <img src="/img/Baby-girl/KR-08.jpg" alt="Glossey Exports" />
+									<div class="gallery-overlay">
+										<div class="gallery-overlay-text"> <span class="gallery-button">
+                        <a href="/img/Baby-girl/KR-08.jpg" class="gallery-photo"><i class="icofont-image"></i></a>
+                        </span> </div>
+									</div>
+								</div>
+							</div>
+							<div class="col-xs-12 col-sm-6 col-md-3 filtr-item GirlBaby">
+								<div class="gallery-item"> <img src="/img/Baby-girl/KR-09.jpg" alt="Glossey Exports" />
+									<div class="gallery-overlay">
+										<div class="gallery-overlay-text"> <span class="gallery-button">
+                        <a href="/img/Baby-girl/KR-09.jpg" class="gallery-photo"><i class="icofont-image"></i></a>
+                        </span> </div>
+									</div>
+								</div>
+							</div>
+							<div class="col-xs-12 col-sm-6 col-md-3 filtr-item GirlBaby">
+								<div class="gallery-item"> <img src="/img/Baby-girl/KR-10.jpg" alt="Glossey Exports" />
+									<div class="gallery-overlay">
+										<div class="gallery-overlay-text"> <span class="gallery-button">
+                        <a href="/img/Baby-girl/KR-10.jpg" class="gallery-photo"><i class="icofont-image"></i></a>
+                        </span> </div>
+									</div>
+								</div>
+							</div>
+							<div class="col-xs-12 col-sm-6 col-md-3 filtr-item GirlBaby">
+								<div class="gallery-item"> <img src="/img/Baby-girl/KR-13.jpg" alt="Glossey Exports" />
+									<div class="gallery-overlay">
+										<div class="gallery-overlay-text"> <span class="gallery-button">
+                        <a href="/img/Baby-girl/KR-13.jpg" class="gallery-photo"><i class="icofont-image"></i></a>
+                        </span> </div>
+									</div>
+								</div>
+							</div>
+							<div class="col-xs-12 col-sm-6 col-md-3 filtr-item GirlBaby">
+								<div class="gallery-item"> <img src="/img/Baby-girl/KR-14.jpg" alt="Glossey Exports" />
+									<div class="gallery-overlay">
+										<div class="gallery-overlay-text"> <span class="gallery-button">
+                        <a href="/img/Baby-girl/KR-14.jpg" class="gallery-photo"><i class="icofont-image"></i></a>
+                        </span> </div>
+									</div>
+								</div>
+							</div>
+							<div class="col-xs-12 col-sm-6 col-md-3 filtr-item GirlBaby">
+								<div class="gallery-item"> <img src="/img/Baby-girl/KR-19.jpg" alt="Glossey Exports" />
+									<div class="gallery-overlay">
+										<div class="gallery-overlay-text"> <span class="gallery-button">
+                        <a href="/img/Baby-girl/KR-19.jpg" class="gallery-photo"><i class="icofont-image"></i></a>
+                        </span> </div>
+									</div>
+								</div>
+							</div>
+							<div class="col-xs-12 col-sm-6 col-md-3 filtr-item GirlBaby">
+								<div class="gallery-item"> <img src="/img/Baby-girl/KR-21.jpg" alt="Glossey Exports" />
+									<div class="gallery-overlay">
+										<div class="gallery-overlay-text"> <span class="gallery-button">
+                        <a href="/img/Baby-girl/KR-21.jpg" class="gallery-photo"><i class="icofont-image"></i></a>
+                        </span> </div>
+									</div>
+								</div>
+							</div>
+							<div class="col-xs-12 col-sm-6 col-md-3 filtr-item GirlBaby">
+								<div class="gallery-item"> <img src="/img/Baby-girl/STY-NO-1006-BF-1209.jpg" alt="Glossey Exports" />
+									<div class="gallery-overlay">
+										<div class="gallery-overlay-text"> <span class="gallery-button">
+                        <a href="/img/Baby-girl/STY-NO-1006-BF-1209.jpg" class="gallery-photo"><i class="icofont-image"></i></a>
+                        </span> </div>
+									</div>
+								</div>
+							</div>
+							<div class="col-xs-12 col-sm-6 col-md-3 filtr-item GirlBaby">
+								<div class="gallery-item"> <img src="/img/Baby-girl/STY-NO-1014-BF-1209.jpg" alt="Glossey Exports" />
+									<div class="gallery-overlay">
+										<div class="gallery-overlay-text"> <span class="gallery-button">
+                        <a href="/img/Baby-girl/STY-NO-1014-BF-1209.jpg" class="gallery-photo"><i class="icofont-image"></i></a>
+                        </span> </div>
+									</div>
+								</div>
+							</div>
+							<div class="col-xs-12 col-sm-6 col-md-3 filtr-item GirlBaby">
+								<div class="gallery-item"> <img src="/img/Baby-girl/STY-NO-1015-BF-1209.jpg" alt="Glossey Exports" />
+									<div class="gallery-overlay">
+										<div class="gallery-overlay-text"> <span class="gallery-button">
+                        <a href="/img/Baby-girl/STY-NO-1015-BF-1209.jpg" class="gallery-photo"><i class="icofont-image"></i></a>
+                        </span> </div>
+									</div>
+								</div>
+							</div>
+							<div class="col-xs-12 col-sm-6 col-md-3 filtr-item GirlBaby">
+								<div class="gallery-item"> <img src="/img/Baby-girl/STY-NO-1017-BF-1209.jpg" alt="Glossey Exports" />
+									<div class="gallery-overlay">
+										<div class="gallery-overlay-text"> <span class="gallery-button">
+                        <a href="/img/Baby-girl/STY-NO-1017-BF-1209.jpg" class="gallery-photo"><i class="icofont-image"></i></a>
+                        </span> </div>
+									</div>
+								</div>
+							</div>
+							<div class="col-xs-12 col-sm-6 col-md-3 filtr-item GirlBaby">
+								<div class="gallery-item"> <img src="/img/Baby-girl/STY-NO-1020-BF-1209.jpg" alt="Glossey Exports" />
+									<div class="gallery-overlay">
+										<div class="gallery-overlay-text"> <span class="gallery-button">
+                        <a href="/img/Baby-girl/STY-NO-1020-BF-1209.jpg" class="gallery-photo"><i class="icofont-image"></i></a>
+                        </span> </div>
+									</div>
+								</div>
+							</div>
+							<div class="col-xs-12 col-sm-6 col-md-3 filtr-item GirlBaby">
+								<div class="gallery-item"> <img src="/img/Baby-girl/STY-NO-1021-BF-1209.jpg" alt="Glossey Exports" />
+									<div class="gallery-overlay">
+										<div class="gallery-overlay-text"> <span class="gallery-button">
+                        <a href="/img/Baby-girl/STY-NO-1021-BF-1209.jpg" class="gallery-photo"><i class="icofont-image"></i></a>
+                        </span> </div>
+									</div>
+								</div>
+							</div>
+							<div class="col-xs-12 col-sm-6 col-md-3 filtr-item GirlBaby">
+								<div class="gallery-item"> <img src="/img/Baby-girl/STY-NO-1031-BF-1209.jpg" alt="Glossey Exports" />
+									<div class="gallery-overlay">
+										<div class="gallery-overlay-text"> <span class="gallery-button">
+                        <a href="/img/Baby-girl/STY-NO-1031-BF-1209.jpg" class="gallery-photo"><i class="icofont-image"></i></a>
+                        </span> </div>
+									</div>
+								</div>
+							</div>
+							<div class="col-xs-12 col-sm-6 col-md-3 filtr-item GirlBaby">
+								<div class="gallery-item"> <img src="/img/Baby-girl/STY-NO-1036-BF-1209.jpg" alt="Glossey Exports" />
+									<div class="gallery-overlay">
+										<div class="gallery-overlay-text"> <span class="gallery-button">
+                        <a href="/img/Baby-girl/STY-NO-1036-BF-1209.jpg" class="gallery-photo"><i class="icofont-image"></i></a>
+                        </span> </div>
+									</div>
+								</div>
+							</div>
+							<div class="col-xs-12 col-sm-6 col-md-3 filtr-item GirlBaby">
+								<div class="gallery-item"> <img src="/img/Baby-girl/STY-NO-1048-BF-1209.jpg" alt="Glossey Exports" />
+									<div class="gallery-overlay">
+										<div class="gallery-overlay-text"> <span class="gallery-button">
+                        <a href="/img/Baby-girl/STY-NO-1048-BF-1209.jpg" class="gallery-photo"><i class="icofont-image"></i></a>
+                        </span> </div>
+									</div>
+								</div>
+							</div>
+							<div class="col-xs-12 col-sm-6 col-md-3 filtr-item GirlBaby">
+								<div class="gallery-item"> <img src="/img/Baby-girl/STY-NO-210000972-softrose.jpg" alt="Glossey Exports" />
+									<div class="gallery-overlay">
+										<div class="gallery-overlay-text"> <span class="gallery-button">
+                        <a href="/img/Baby-girl/STY-NO-210000972-softrose.jpg" class="gallery-photo"><i class="icofont-image"></i></a>
+                        </span> </div>
+									</div>
+								</div>
+							</div>
+							<div class="col-xs-12 col-sm-6 col-md-3 filtr-item GirlBaby">
+								<div class="gallery-item"> <img src="/img/Baby-girl/STY-NO-210000973-vintage-green.jpg" alt="Glossey Exports" />
+									<div class="gallery-overlay">
+										<div class="gallery-overlay-text"> <span class="gallery-button">
+                        <a href="/img/Baby-girl/STY-NO-210000973-vintage-green.jpg" class="gallery-photo"><i class="icofont-image"></i></a>
+                        </span> </div>
+									</div>
+								</div>
+							</div>
+							<div class="col-xs-12 col-sm-6 col-md-3 filtr-item BoyBaby">
+								<div class="gallery-item"> <img src="/img/Baby-boy/I-LIKE-TO-DRIVE-01.jpg" alt="Glossey Exports" />
+									<div class="gallery-overlay">
+										<div class="gallery-overlay-text"> <span class="gallery-button">
+                        <a href="/img/Baby-boy/I-LIKE-TO-DRIVE-01.jpg" class="gallery-photo"><i class="icofont-image"></i></a>
+                        </span> </div>
+									</div>
+								</div>
+							</div>
+							<div class="col-xs-12 col-sm-6 col-md-3 filtr-item BoyBaby">
+								<div class="gallery-item"> <img src="/img/Baby-boy/I-LIKE-TO-DRIVE-03.jpg" alt="Glossey Exports" />
+									<div class="gallery-overlay">
+										<div class="gallery-overlay-text"> <span class="gallery-button">
+                        <a href="/img/Baby-boy/I-LIKE-TO-DRIVE-03.jpg" class="gallery-photo"><i class="icofont-image"></i></a>
+                        </span> </div>
+									</div>
+								</div>
+							</div>
+							<div class="col-xs-12 col-sm-6 col-md-3 filtr-item BoyBaby">
+								<div class="gallery-item"> <img src="/img/Baby-boy/I-LIKE-TO-DRIVE-04.jpg" alt="Glossey Exports" />
+									<div class="gallery-overlay">
+										<div class="gallery-overlay-text"> <span class="gallery-button">
+                        <a href="/img/Baby-boy/I-LIKE-TO-DRIVE-04.jpg" class="gallery-photo"><i class="icofont-image"></i></a>
+                        </span> </div>
+									</div>
+								</div>
+							</div>
+							<div class="col-xs-12 col-sm-6 col-md-3 filtr-item BoyBaby">
+								<div class="gallery-item"> <img src="/img/Baby-boy/I-LIKE-TO-DRIVE-05.jpg" alt="Glossey Exports" />
+									<div class="gallery-overlay">
+										<div class="gallery-overlay-text"> <span class="gallery-button">
+                        <a href="/img/Baby-boy/I-LIKE-TO-DRIVE-05.jpg" class="gallery-photo"><i class="icofont-image"></i></a>
+                        </span> </div>
+									</div>
+								</div>
+							</div>
+							<div class="col-xs-12 col-sm-6 col-md-3 filtr-item BoyBaby">
+								<div class="gallery-item"> <img src="/img/Baby-boy/I-LIKE-TO-DRIVE-06.jpg" alt="Glossey Exports" />
+									<div class="gallery-overlay">
+										<div class="gallery-overlay-text"> <span class="gallery-button">
+                        <a href="/img/Baby-boy/I-LIKE-TO-DRIVE-06.jpg" class="gallery-photo"><i class="icofont-image"></i></a>
+                        </span> </div>
+									</div>
+								</div>
+							</div>
+							<div class="col-xs-12 col-sm-6 col-md-3 filtr-item BoyBaby">
+								<div class="gallery-item"> <img src="/img/Baby-boy/I-LIKE-TO-DRIVE-07.jpg" alt="Glossey Exports" />
+									<div class="gallery-overlay">
+										<div class="gallery-overlay-text"> <span class="gallery-button">
+                        <a href="/img/Baby-boy/I-LIKE-TO-DRIVE-07.jpg" class="gallery-photo"><i class="icofont-image"></i></a>
+                        </span> </div>
+									</div>
+								</div>
+							</div>
+							<div class="col-xs-12 col-sm-6 col-md-3 filtr-item BoyBaby">
+								<div class="gallery-item"> <img src="/img/Baby-boy/I-LIKE-TO-DRIVE--02.jpg" alt="Glossey Exports" />
+									<div class="gallery-overlay">
+										<div class="gallery-overlay-text"> <span class="gallery-button">
+                        <a href="/img/Baby-boy/I-LIKE-TO-DRIVE--02.jpg" class="gallery-photo"><i class="icofont-image"></i></a>
+                        </span> </div>
+									</div>
+								</div>
+							</div>
+							<div class="col-xs-12 col-sm-6 col-md-3 filtr-item BoyBaby">
+								<div class="gallery-item"> <img src="/img/Baby-boy/JUNGLE-TIME-01.jpg" alt="Glossey Exports" />
+									<div class="gallery-overlay">
+										<div class="gallery-overlay-text"> <span class="gallery-button">
+                        <a href="/img/Baby-boy/JUNGLE-TIME-01.jpg" class="gallery-photo"><i class="icofont-image"></i></a>
+                        </span> </div>
+									</div>
+								</div>
+							</div>
+							<div class="col-xs-12 col-sm-6 col-md-3 filtr-item BoyBaby">
+								<div class="gallery-item"> <img src="/img/Baby-boy/JUNGLE-TIME-02.jpg" alt="Glossey Exports" />
+									<div class="gallery-overlay">
+										<div class="gallery-overlay-text"> <span class="gallery-button">
+                        <a href="/img/Baby-boy/JUNGLE-TIME-02.jpg" class="gallery-photo"><i class="icofont-image"></i></a>
+                        </span> </div>
+									</div>
+								</div>
+							</div>
+							<div class="col-xs-12 col-sm-6 col-md-3 filtr-item BoyBaby">
+								<div class="gallery-item"> <img src="/img/Baby-boy/JUNGLE-TIME-03.jpg" alt="Glossey Exports" />
+									<div class="gallery-overlay">
+										<div class="gallery-overlay-text"> <span class="gallery-button">
+                        <a href="/img/Baby-boy/JUNGLE-TIME-03.jpg" class="gallery-photo"><i class="icofont-image"></i></a>
+                        </span> </div>
+									</div>
+								</div>
+							</div>
+							<div class="col-xs-12 col-sm-6 col-md-3 filtr-item BoyBaby">
+								<div class="gallery-item"> <img src="/img/Baby-boy/JUNGLE-TIME-04.jpg" alt="Glossey Exports" />
+									<div class="gallery-overlay">
+										<div class="gallery-overlay-text"> <span class="gallery-button">
+                        <a href="/img/Baby-boy/JUNGLE-TIME-04.jpg" class="gallery-photo"><i class="icofont-image"></i></a>
+                        </span> </div>
+									</div>
+								</div>
+							</div>
+							<div class="col-xs-12 col-sm-6 col-md-3 filtr-item BoyBaby">
+								<div class="gallery-item"> <img src="/img/Baby-boy/JUNGLE-TIME-05.jpg" alt="Glossey Exports" />
+									<div class="gallery-overlay">
+										<div class="gallery-overlay-text"> <span class="gallery-button">
+                        <a href="/img/Baby-boy/JUNGLE-TIME-05.jpg" class="gallery-photo"><i class="icofont-image"></i></a>
+                        </span> </div>
+									</div>
+								</div>
+							</div>
+							<div class="col-xs-12 col-sm-6 col-md-3 filtr-item BoyBaby">
+								<div class="gallery-item"> <img src="/img/Baby-boy/18111.JPG" alt="Glossey Exports" />
+									<div class="gallery-overlay">
+										<div class="gallery-overlay-text"> <span class="gallery-button">
+                        <a href="/img/Baby-boy/18111.JPG" class="gallery-photo"><i class="icofont-image"></i></a>
+                        </span> </div>
+									</div>
+								</div>
+							</div>
+							<div class="col-xs-12 col-sm-6 col-md-3 filtr-item BoyBaby">
+								<div class="gallery-item"> <img src="/img/Baby-boy/18112.JPG" alt="Glossey Exports" />
+									<div class="gallery-overlay">
+										<div class="gallery-overlay-text"> <span class="gallery-button">
+                        <a href="/img/Baby-boy/18112.JPG" class="gallery-photo"><i class="icofont-image"></i></a>
+                        </span> </div>
+									</div>
+								</div>
+							</div>
+							<div class="col-xs-12 col-sm-6 col-md-3 filtr-item BoyBaby">
+								<div class="gallery-item"> <img src="/img/Baby-boy/GE-00154.jpg" alt="Glossey Exports" />
+									<div class="gallery-overlay">
+										<div class="gallery-overlay-text"> <span class="gallery-button">
+                        <a href="/img/Baby-boy/GE-00154.jpg" class="gallery-photo"><i class="icofont-image"></i></a>
+                        </span> </div>
+									</div>
+								</div>
+							</div>
+							<div class="col-xs-12 col-sm-6 col-md-3 filtr-item BoyBaby">
+								<div class="gallery-item"> <img src="/img/Baby-boy/LITTLE-SAILOR-01.jpg" alt="Glossey Exports" />
+									<div class="gallery-overlay">
+										<div class="gallery-overlay-text"> <span class="gallery-button">
+                        <a href="/img/Baby-boy/LITTLE-SAILOR-01.jpg" class="gallery-photo"><i class="icofont-image"></i></a>
+                        </span> </div>
+									</div>
+								</div>
+							</div>
+							<div class="col-xs-12 col-sm-6 col-md-3 filtr-item GirlKids">
+								<div class="gallery-item"> <img src="/img/Kids-girl/GE-1716.JPG" alt="Glossey Exports" />
+									<div class="gallery-overlay">
+										<div class="gallery-overlay-text"> <span class="gallery-button">
+                        <a href="/img/Kids-girl/GE-1716.JPG" class="gallery-photo"><i class="icofont-image"></i></a>
+                        </span> </div>
+									</div>
+								</div>
+							</div>
+							<div class="col-xs-12 col-sm-6 col-md-3 filtr-item GirlKids">
+								<div class="gallery-item"> <img src="/img/Kids-girl/GE-3712.JPG" alt="Glossey Exports" />
+									<div class="gallery-overlay">
+										<div class="gallery-overlay-text"> <span class="gallery-button">
+                        <a href="/img/Kids-girl/GE-3712.JPG" class="gallery-photo"><i class="icofont-image"></i></a>
+                        </span> </div>
+									</div>
+								</div>
+							</div>
+							<div class="col-xs-12 col-sm-6 col-md-3 filtr-item GirlKids">
+								<div class="gallery-item"> <img src="/img/Kids-girl/GE-9702.jpg" alt="Glossey Exports" />
+									<div class="gallery-overlay">
+										<div class="gallery-overlay-text"> <span class="gallery-button">
+                        <a href="/img/Kids-girl/GE-9702.jpg" class="gallery-photo"><i class="icofont-image"></i></a>
+                        </span> </div>
+									</div>
+								</div>
+							</div>
+							<div class="col-xs-12 col-sm-6 col-md-3 filtr-item GirlKids">
+								<div class="gallery-item"> <img src="/img/Kids-girl/GE-9718.jpg" alt="Glossey Exports" />
+									<div class="gallery-overlay">
+										<div class="gallery-overlay-text"> <span class="gallery-button">
+                        <a href="/img/Kids-girl/GE-9718.jpg" class="gallery-photo"><i class="icofont-image"></i></a>
+                        </span> </div>
+									</div>
+								</div>
+							</div>
+							<div class="col-xs-12 col-sm-6 col-md-3 filtr-item GirlKids">
+								<div class="gallery-item"> <img src="/img/Kids-girl/GE-28168.jpg" alt="Glossey Exports" />
+									<div class="gallery-overlay">
+										<div class="gallery-overlay-text"> <span class="gallery-button">
+                        <a href="/img/Kids-girl/GE-28168.jpg" class="gallery-photo"><i class="icofont-image"></i></a>
+                        </span> </div>
+									</div>
+								</div>
+							</div>
+							<div class="col-xs-12 col-sm-6 col-md-3 filtr-item GirlKids">
+								<div class="gallery-item"> <img src="/img/Kids-girl/GE-47562.jpg" alt="Glossey Exports" />
+									<div class="gallery-overlay">
+										<div class="gallery-overlay-text"> <span class="gallery-button">
+                        <a href="/img/Kids-girl/GE-47562.jpg" class="gallery-photo"><i class="icofont-image"></i></a>
+                        </span> </div>
+									</div>
+								</div>
+							</div>
+							<div class="col-xs-12 col-sm-6 col-md-3 filtr-item GirlKids">
+								<div class="gallery-item"> <img src="/img/Kids-girl/GE-H193301.JPG" alt="Glossey Exports" />
+									<div class="gallery-overlay">
+										<div class="gallery-overlay-text"> <span class="gallery-button">
+                        <a href="/img/Kids-girl/GE-H193301.JPG" class="gallery-photo"><i class="icofont-image"></i></a>
+                        </span> </div>
+									</div>
+								</div>
+							</div>
+							<div class="col-xs-12 col-sm-6 col-md-3 filtr-item GirlKids">
+								<div class="gallery-item"> <img src="/img/Kids-girl/GE-H199311.JPG" alt="Glossey Exports" />
+									<div class="gallery-overlay">
+										<div class="gallery-overlay-text"> <span class="gallery-button">
+                        <a href="/img/Kids-girl/GE-H199311.JPG" class="gallery-photo"><i class="icofont-image"></i></a>
+                        </span> </div>
+									</div>
+								</div>
+							</div>
+							<div class="col-xs-12 col-sm-6 col-md-3 filtr-item GirlKids">
+								<div class="gallery-item"> <img src="/img/Kids-girl/GE-H199314.JPG" alt="Glossey Exports" />
+									<div class="gallery-overlay">
+										<div class="gallery-overlay-text"> <span class="gallery-button">
+                        <a href="/img/Kids-girl/GE-H199314.JPG" class="gallery-photo"><i class="icofont-image"></i></a>
+                        </span> </div>
+									</div>
+								</div>
+							</div>
+							<div class="col-xs-12 col-sm-6 col-md-3 filtr-item GirlKids">
+								<div class="gallery-item"> <img src="/img/Kids-girl/STY.NO-37600.jpg" alt="Glossey Exports" />
+									<div class="gallery-overlay">
+										<div class="gallery-overlay-text"> <span class="gallery-button">
+                        <a href="/img/Kids-girl/STY.NO-37600.jpg" class="gallery-photo"><i class="icofont-image"></i></a>
+                        </span> </div>
+									</div>
+								</div>
+							</div>
+							<div class="col-xs-12 col-sm-6 col-md-3 filtr-item GirlKids">
+								<div class="gallery-item"> <img src="/img/Kids-girl/STY.NO-37603.jpg" alt="Glossey Exports" />
+									<div class="gallery-overlay">
+										<div class="gallery-overlay-text"> <span class="gallery-button">
+                        <a href="/img/Kids-girl/STY.NO-37603.jpg" class="gallery-photo"><i class="icofont-image"></i></a>
+                        </span> </div>
+									</div>
+								</div>
+							</div>
+							<div class="col-xs-12 col-sm-6 col-md-3 filtr-item GirlKids">
+								<div class="gallery-item"> <img src="/img/Kids-girl/STY.NO-37610.jpg" alt="Glossey Exports" />
+									<div class="gallery-overlay">
+										<div class="gallery-overlay-text"> <span class="gallery-button">
+                        <a href="/img/Kids-girl/STY.NO-37610.jpg" class="gallery-photo"><i class="icofont-image"></i></a>
+                        </span> </div>
+									</div>
+								</div>
+							</div>
+							<div class="col-xs-12 col-sm-6 col-md-3 filtr-item GirlKids">
+								<div class="gallery-item"> <img src="/img/Kids-girl/STY.NO-37611.jpg" alt="Glossey Exports" />
+									<div class="gallery-overlay">
+										<div class="gallery-overlay-text"> <span class="gallery-button">
+                        <a href="/img/Kids-girl/STY.NO-37611.jpg" class="gallery-photo"><i class="icofont-image"></i></a>
+                        </span> </div>
+									</div>
+								</div>
+							</div>
+							<div class="col-xs-12 col-sm-6 col-md-3 filtr-item GirlKids">
+								<div class="gallery-item"> <img src="/img/Kids-girl/STY.NO-37612.jpg" alt="Glossey Exports" />
+									<div class="gallery-overlay">
+										<div class="gallery-overlay-text"> <span class="gallery-button">
+                        <a href="/img/Kids-girl/STY.NO-37612.jpg" class="gallery-photo"><i class="icofont-image"></i></a>
+                        </span> </div>
+									</div>
+								</div>
+							</div>
+							<div class="col-xs-12 col-sm-6 col-md-3 filtr-item GirlKids">
+								<div class="gallery-item"> <img src="/img/Kids-girl/GE-H199324.JPG" alt="Glossey Exports" />
+									<div class="gallery-overlay">
+										<div class="gallery-overlay-text"> <span class="gallery-button">
+                        <a href="/img/Kids-girl/GE-H199324.JPG" class="gallery-photo"><i class="icofont-image"></i></a>
+                        </span> </div>
+									</div>
+								</div>
+							</div>
+							<div class="col-xs-12 col-sm-6 col-md-3 filtr-item GirlKids">
+								<div class="gallery-item"> <img src="/img/Kids-girl/GE-H199321.JPG" alt="Glossey Exports" />
+									<div class="gallery-overlay">
+										<div class="gallery-overlay-text"> <span class="gallery-button">
+                        <a href="/img/Kids-girl/GE-H199321.JPG" class="gallery-photo"><i class="icofont-image"></i></a>
+                        </span> </div>
+									</div>
+								</div>
+							</div>
+							<div class="col-xs-12 col-sm-6 col-md-3 filtr-item GirlKids">
+								<div class="gallery-item"> <img src="/img/Kids-girl/GE-H199317.JPG" alt="Glossey Exports" />
+									<div class="gallery-overlay">
+										<div class="gallery-overlay-text"> <span class="gallery-button">
+                        <a href="/img/Kids-girl/GE-H199317.JPG" class="gallery-photo"><i class="icofont-image"></i></a>
+                        </span> </div>
+									</div>
+								</div>
+							</div>
+							<div class="col-xs-12 col-sm-6 col-md-3 filtr-item GirlKids">
+								<div class="gallery-item"> <img src="/img/Kids-girl/GE-H199325.JPG" alt="Glossey Exports" />
+									<div class="gallery-overlay">
+										<div class="gallery-overlay-text"> <span class="gallery-button">
+                        <a href="/img/Kids-girl/GE-H199325.JPG" class="gallery-photo"><i class="icofont-image"></i></a>
+                        </span> </div>
+									</div>
+								</div>
+							</div>
+							<div class="col-xs-12 col-sm-6 col-md-3 filtr-item GirlKids">
+								<div class="gallery-item"> <img src="/img/Kids-girl/GE-7241T0039.jpg" alt="Glossey Exports" />
+									<div class="gallery-overlay">
+										<div class="gallery-overlay-text"> <span class="gallery-button">
+                        <a href="/img/Kids-girl/GE-7241T0039.jpg" class="gallery-photo"><i class="icofont-image"></i></a>
+                        </span> </div>
+									</div>
+								</div>
+							</div>
+							<div class="col-xs-12 col-sm-6 col-md-3 filtr-item GirlKids">
+								<div class="gallery-item"> <img src="/img/Kids-girl/GE-7241T0041.jpg" alt="Glossey Exports" />
+									<div class="gallery-overlay">
+										<div class="gallery-overlay-text"> <span class="gallery-button">
+                        <a href="/img/Kids-girl/GE-7241T0041.jpg" class="gallery-photo"><i class="icofont-image"></i></a>
+                        </span> </div>
+									</div>
+								</div>
+							</div>
+							<div class="col-xs-12 col-sm-6 col-md-3 filtr-item GirlKids">
+								<div class="gallery-item"> <img src="/img/Kids-girl/GE-7241T0042.jpg" alt="Glossey Exports" />
+									<div class="gallery-overlay">
+										<div class="gallery-overlay-text"> <span class="gallery-button">
+                        <a href="/img/Kids-girl/GE-7241T0042.jpg" class="gallery-photo"><i class="icofont-image"></i></a>
+                        </span> </div>
+									</div>
+								</div>
+							</div>
+							<div class="col-xs-12 col-sm-6 col-md-3 filtr-item GirlKids">
+								<div class="gallery-item"> <img src="/img/Kids-girl/GE-7241T0043.jpg" alt="Glossey Exports" />
+									<div class="gallery-overlay">
+										<div class="gallery-overlay-text"> <span class="gallery-button">
+                        <a href="/img/Kids-girl/GE-7241T0043.jpg" class="gallery-photo"><i class="icofont-image"></i></a>
+                        </span> </div>
+									</div>
+								</div>
+							</div>
+							<div class="col-xs-12 col-sm-6 col-md-3 filtr-item GirlKids">
+								<div class="gallery-item"> <img src="/img/Kids-girl/GE-7241T0044.jpg" alt="Glossey Exports" />
+									<div class="gallery-overlay">
+										<div class="gallery-overlay-text"> <span class="gallery-button">
+                        <a href="/img/Kids-girl/GE-7241T0044.jpg" class="gallery-photo"><i class="icofont-image"></i></a>
+                        </span> </div>
+									</div>
+								</div>
+							</div>
+							<div class="col-xs-12 col-sm-6 col-md-3 filtr-item GirlKids">
+								<div class="gallery-item"> <img src="/img/Kids-girl/GE-7241T0045.jpg" alt="Glossey Exports" />
+									<div class="gallery-overlay">
+										<div class="gallery-overlay-text"> <span class="gallery-button">
+                        <a href="/img/Kids-girl/GE-7241T0045.jpg" class="gallery-photo"><i class="icofont-image"></i></a>
+                        </span> </div>
+									</div>
+								</div>
+							</div>
+							<div class="col-xs-12 col-sm-6 col-md-3 filtr-item GirlKids">
+								<div class="gallery-item"> <img src="/img/Kids-girl/GE-7261T0026.jpg" alt="Glossey Exports" />
+									<div class="gallery-overlay">
+										<div class="gallery-overlay-text"> <span class="gallery-button">
+                        <a href="/img/Kids-girl/GE-7261T0026.jpg" class="gallery-photo"><i class="icofont-image"></i></a>
+                        </span> </div>
+									</div>
+								</div>
+							</div>
+							<div class="col-xs-12 col-sm-6 col-md-3 filtr-item BoyKids">
+								<div class="gallery-item"> <img src="/img/Kids-Boys/GE-9750-GR-MEL.JPG" alt="Glossey Exports" />
+									<div class="gallery-overlay">
+										<div class="gallery-overlay-text"> <span class="gallery-button">
+                        <a href="/img/Kids-Boys/GE-9750-GR-MEL.JPG" class="gallery-photo"><i class="icofont-image"></i></a>
+                        </span> </div>
+									</div>
+								</div>
+							</div>
+							<div class="col-xs-12 col-sm-6 col-md-3 filtr-item BoyKids">
+								<div class="gallery-item"> <img src="/img/Kids-Boys/GE-9750-OFF-WHITE.JPG" alt="Glossey Exports" />
+									<div class="gallery-overlay">
+										<div class="gallery-overlay-text"> <span class="gallery-button">
+                        <a href="/img/Kids-Boys/GE-9750-OFF-WHITE.JPG" class="gallery-photo"><i class="icofont-image"></i></a>
+                        </span> </div>
+									</div>
+								</div>
+							</div>
+							<div class="col-xs-12 col-sm-6 col-md-3 filtr-item BoyKids">
+								<div class="gallery-item"> <img src="/img/Kids-Boys/GE-9759-WHITE.JPG" alt="Glossey Exports" />
+									<div class="gallery-overlay">
+										<div class="gallery-overlay-text"> <span class="gallery-button">
+                        <a href="/img/Kids-Boys/GE-9759-WHITE.JPG" class="gallery-photo"><i class="icofont-image"></i></a>
+                        </span> </div>
+									</div>
+								</div>
+							</div>
+							<div class="col-xs-12 col-sm-6 col-md-3 filtr-item BoyKids">
+								<div class="gallery-item"> <img src="/img/Kids-Boys/GE-H199340.JPG" alt="Glossey Exports" />
+									<div class="gallery-overlay">
+										<div class="gallery-overlay-text"> <span class="gallery-button">
+                        <a href="/img/Kids-Boys/GE-H199340.JPG" class="gallery-photo"><i class="icofont-image"></i></a>
+                        </span> </div>
+									</div>
+								</div>
+							</div>
+							<div class="col-xs-12 col-sm-6 col-md-3 filtr-item BoyKids">
+								<div class="gallery-item"> <img src="/img/Kids-Boys/GE-H199343.JPG" alt="Glossey Exports" />
+									<div class="gallery-overlay">
+										<div class="gallery-overlay-text"> <span class="gallery-button">
+                        <a href="/img/Kids-Boys/GE-H199343.JPG" class="gallery-photo"><i class="icofont-image"></i></a>
+                        </span> </div>
+									</div>
+								</div>
+							</div>
+							<div class="col-xs-12 col-sm-6 col-md-3 filtr-item BoyKids">
+								<div class="gallery-item"> <img src="/img/Kids-Boys/GE-H199345.JPG" alt="Glossey Exports" />
+									<div class="gallery-overlay">
+										<div class="gallery-overlay-text"> <span class="gallery-button">
+                        <a href="/img/Kids-Boys/GE-H199345.JPG" class="gallery-photo"><i class="icofont-image"></i></a>
+                        </span> </div>
+									</div>
+								</div>
+							</div>
+							<div class="col-xs-12 col-sm-6 col-md-3 filtr-item BoyKids">
+								<div class="gallery-item"> <img src="/img/Kids-Boys/GE-H199346.JPG" alt="Glossey Exports" />
+									<div class="gallery-overlay">
+										<div class="gallery-overlay-text"> <span class="gallery-button">
+                        <a href="/img/Kids-Boys/GE-H199346.JPG" class="gallery-photo"><i class="icofont-image"></i></a>
+                        </span> </div>
+									</div>
+								</div>
+							</div>
+							<div class="col-xs-12 col-sm-6 col-md-3 filtr-item BoyKids">
+								<div class="gallery-item"> <img src="/img/Kids-Boys/GE-H199348.JPG" alt="Glossey Exports" />
+									<div class="gallery-overlay">
+										<div class="gallery-overlay-text"> <span class="gallery-button">
+                        <a href="/img/Kids-Boys/GE-H199348.JPG" class="gallery-photo"><i class="icofont-image"></i></a>
+                        </span> </div>
+									</div>
+								</div>
+							</div>
+							<div class="col-xs-12 col-sm-6 col-md-3 filtr-item BoyKids">
+								<div class="gallery-item"> <img src="/img/Kids-Boys/IMG-104603.jpg" alt="Glossey Exports" />
+									<div class="gallery-overlay">
+										<div class="gallery-overlay-text"> <span class="gallery-button">
+                        <a href="/img/Kids-Boys/IMG-104603.jpg" class="gallery-photo"><i class="icofont-image"></i></a>
+                        </span> </div>
+									</div>
+								</div>
+							</div>
+							<div class="col-xs-12 col-sm-6 col-md-3 filtr-item BoyKids">
+								<div class="gallery-item"> <img src="/img/Kids-Boys/GE-7431T0100-BLU.jpg" alt="Glossey Exports" />
+									<div class="gallery-overlay">
+										<div class="gallery-overlay-text"> <span class="gallery-button">
+                        <a href="/img/Kids-Boys/GE-7431T0100-BLU.jpg" class="gallery-photo"><i class="icofont-image"></i></a>
+                        </span> </div>
+									</div>
+								</div>
+							</div>
+							<div class="col-xs-12 col-sm-6 col-md-3 filtr-item BoyKids">
+								<div class="gallery-item"> <img src="/img/Kids-Boys/IMG-104745.jpg" alt="Glossey Exports" />
+									<div class="gallery-overlay">
+										<div class="gallery-overlay-text"> <span class="gallery-button">
+                        <a href="/img/Kids-Boys/IMG-104745.jpg" class="gallery-photo"><i class="icofont-image"></i></a>
+                        </span> </div>
+									</div>
+								</div>
+							</div>
+							<div class="col-xs-12 col-sm-6 col-md-3 filtr-item BoyKids">
+								<div class="gallery-item"> <img src="/img/Kids-Boys/33145-UC.jpg" alt="Glossey Exports" />
+									<div class="gallery-overlay">
+										<div class="gallery-overlay-text"> <span class="gallery-button">
+                        <a href="/img/Kids-Boys/33145-UC.jpg" class="gallery-photo"><i class="icofont-image"></i></a>
+                        </span> </div>
+									</div>
+								</div>
+							</div>
+							<div class="col-xs-12 col-sm-6 col-md-3 filtr-item BoyKids">
+								<div class="gallery-item"> <img src="/img/Kids-Boys/33150-UC.jpg" alt="Glossey Exports" />
+									<div class="gallery-overlay">
+										<div class="gallery-overlay-text"> <span class="gallery-button">
+                        <a href="/img/Kids-Boys/33150-UC.jpg" class="gallery-photo"><i class="icofont-image"></i></a>
+                        </span> </div>
+									</div>
+								</div>
+							</div>
+							<div class="col-xs-12 col-sm-6 col-md-3 filtr-item BoyKids">
+								<div class="gallery-item"> <img src="/img/Kids-Boys/33151-UC.jpg" alt="Glossey Exports" />
+									<div class="gallery-overlay">
+										<div class="gallery-overlay-text"> <span class="gallery-button">
+                        <a href="/img/Kids-Boys/33151-UC.jpg" class="gallery-photo"><i class="icofont-image"></i></a>
+                        </span> </div>
+									</div>
+								</div>
+							</div>
+							<div class="col-xs-12 col-sm-6 col-md-3 filtr-item BoyKids">
+								<div class="gallery-item"> <img src="/img/Kids-Boys/33152-UC.jpg" alt="Glossey Exports" />
+									<div class="gallery-overlay">
+										<div class="gallery-overlay-text"> <span class="gallery-button">
+                        <a href="/img/Kids-Boys/33152-UC.jpg" class="gallery-photo"><i class="icofont-image"></i></a>
+                        </span> </div>
+									</div>
+								</div>
+							</div>
+							<div class="col-xs-12 col-sm-6 col-md-3 filtr-item BoyKids">
+								<div class="gallery-item"> <img src="/img/Kids-Boys/61072-UC.jpg" alt="Glossey Exports" />
+									<div class="gallery-overlay">
+										<div class="gallery-overlay-text"> <span class="gallery-button">
+                        <a href="/img/Kids-Boys/61072-UC.jpg" class="gallery-photo"><i class="icofont-image"></i></a>
+                        </span> </div>
+									</div>
+								</div>
+							</div>
+							<div class="col-xs-12 col-sm-6 col-md-3 filtr-item Ladies">
+								<div class="gallery-item"> <img src="/img/Ladies/GE-4837.jpg" alt="Glossey Exports" />
+									<div class="gallery-overlay">
+										<div class="gallery-overlay-text"> <span class="gallery-button">
+                        <a href="/img/Ladies/GE-4837.jpg" class="gallery-photo"><i class="icofont-image"></i></a>
+                        </span> </div>
+									</div>
+								</div>
+							</div>
+							<div class="col-xs-12 col-sm-6 col-md-3 filtr-item Ladies">
+								<div class="gallery-item"> <img src="/img/Ladies/GE-04840.jpg" alt="Glossey Exports" />
+									<div class="gallery-overlay">
+										<div class="gallery-overlay-text"> <span class="gallery-button">
+                        <a href="/img/Ladies/GE-04840.jpg" class="gallery-photo"><i class="icofont-image"></i></a>
+                        </span> </div>
+									</div>
+								</div>
+							</div>
+							<div class="col-xs-12 col-sm-6 col-md-3 filtr-item Ladies">
+								<div class="gallery-item"> <img src="/img/Ladies/GE-04841.jpg" alt="Glossey Exports" />
+									<div class="gallery-overlay">
+										<div class="gallery-overlay-text"> <span class="gallery-button">
+                        <a href="/img/Ladies/GE-04841.jpg" class="gallery-photo"><i class="icofont-image"></i></a>
+                        </span> </div>
+									</div>
+								</div>
+							</div>
+							<div class="col-xs-12 col-sm-6 col-md-3 filtr-item Ladies">
+								<div class="gallery-item"> <img src="/img/Ladies/GE-04844.jpg" alt="Glossey Exports" />
+									<div class="gallery-overlay">
+										<div class="gallery-overlay-text"> <span class="gallery-button">
+                        <a href="/img/Ladies/GE-04844.jpg" class="gallery-photo"><i class="icofont-image"></i></a>
+                        </span> </div>
+									</div>
+								</div>
+							</div>
+							<div class="col-xs-12 col-sm-6 col-md-3 filtr-item Ladies">
+								<div class="gallery-item"> <img src="/img/Ladies/GE-4938.jpg" alt="Glossey Exports" />
+									<div class="gallery-overlay">
+										<div class="gallery-overlay-text"> <span class="gallery-button">
+                        <a href="/img/Ladies/GE-4938.jpg" class="gallery-photo"><i class="icofont-image"></i></a>
+                        </span> </div>
+									</div>
+								</div>
+							</div>
+							<div class="col-xs-12 col-sm-6 col-md-3 filtr-item Ladies">
+								<div class="gallery-item"> <img src="/img/Ladies/GE-04951.jpg" alt="Glossey Exports" />
+									<div class="gallery-overlay">
+										<div class="gallery-overlay-text"> <span class="gallery-button">
+                        <a href="/img/Ladies/GE-04951.jpg" class="gallery-photo"><i class="icofont-image"></i></a>
+                        </span> </div>
+									</div>
+								</div>
+							</div>
+							<div class="col-xs-12 col-sm-6 col-md-3 filtr-item Ladies">
+								<div class="gallery-item"> <img src="/img/Ladies/GE-MN547-01X.JPG" alt="Glossey Exports" />
+									<div class="gallery-overlay">
+										<div class="gallery-overlay-text"> <span class="gallery-button">
+                        <a href="/img/Ladies/GE-MN547-01X.JPG" class="gallery-photo"><i class="icofont-image"></i></a>
+                        </span> </div>
+									</div>
+								</div>
+							</div>
+							<div class="col-xs-12 col-sm-6 col-md-3 filtr-item Ladies">
+								<div class="gallery-item"> <img src="/img/Ladies/GE-MR367-00X.JPG" alt="Glossey Exports" />
+									<div class="gallery-overlay">
+										<div class="gallery-overlay-text"> <span class="gallery-button">
+                        <a href="/img/Ladies/GE-MR367-00X.JPG" class="gallery-photo"><i class="icofont-image"></i></a>
+                        </span> </div>
+									</div>
+								</div>
+							</div>
+							<div class="col-xs-12 col-sm-6 col-md-3 filtr-item Ladies">
+								<div class="gallery-item"> <img src="/img/Ladies/GE-PM561-03X.JPG" alt="Glossey Exports" />
+									<div class="gallery-overlay">
+										<div class="gallery-overlay-text"> <span class="gallery-button">
+                        <a href="/img/Ladies/GE-PM561-03X.JPG" class="gallery-photo"><i class="icofont-image"></i></a>
+                        </span> </div>
+									</div>
+								</div>
+							</div>
+							<div class="col-xs-12 col-sm-6 col-md-3 filtr-item Ladies">
+								<div class="gallery-item"> <img src="/img/Ladies/GE-PV357-09X.JPG" alt="Glossey Exports" />
+									<div class="gallery-overlay">
+										<div class="gallery-overlay-text"> <span class="gallery-button">
+                        <a href="/img/Ladies/GE-PV357-09X.JPG" class="gallery-photo"><i class="icofont-image"></i></a>
+                        </span> </div>
+									</div>
+								</div>
+							</div>
+							<div class="col-xs-12 col-sm-6 col-md-3 filtr-item Ladies">
+								<div class="gallery-item"> <img src="/img/Ladies/GE-PV359-90X.JPG" alt="Glossey Exports" />
+									<div class="gallery-overlay">
+										<div class="gallery-overlay-text"> <span class="gallery-button">
+                        <a href="/img/Ladies/GE-PV359-90X.JPG" class="gallery-photo"><i class="icofont-image"></i></a>
+                        </span> </div>
+									</div>
+								</div>
+							</div>
+							<div class="col-xs-12 col-sm-6 col-md-3 filtr-item Ladies">
+								<div class="gallery-item"> <img src="/img/Ladies/GE-QB739-99X.JPG" alt="Glossey Exports" />
+									<div class="gallery-overlay">
+										<div class="gallery-overlay-text"> <span class="gallery-button">
+                        <a href="/img/Ladies/GE-QB739-99X.JPG" class="gallery-photo"><i class="icofont-image"></i></a>
+                        </span> </div>
+									</div>
+								</div>
+							</div>
+							<div class="col-xs-12 col-sm-6 col-md-3 filtr-item Ladies">
+								<div class="gallery-item"> <img src="/img/Ladies/GE-QP286-59X.JPG" alt="Glossey Exports" />
+									<div class="gallery-overlay">
+										<div class="gallery-overlay-text"> <span class="gallery-button">
+                        <a href="/img/Ladies/GE-QP286-59X.JPG" class="gallery-photo"><i class="icofont-image"></i></a>
+                        </span> </div>
+									</div>
+								</div>
+							</div>
+							<div class="col-xs-12 col-sm-6 col-md-3 filtr-item Ladies">
+								<div class="gallery-item"> <img src="/img/Ladies/GE-RM884-09X.JPG" alt="Glossey Exports" />
+									<div class="gallery-overlay">
+										<div class="gallery-overlay-text"> <span class="gallery-button">
+                        <a href="/img/Ladies/GE-RM884-09X.JPG" class="gallery-photo"><i class="icofont-image"></i></a>
+                        </span> </div>
+									</div>
+								</div>
+							</div>
+							<div class="col-xs-12 col-sm-6 col-md-3 filtr-item Ladies">
+								<div class="gallery-item"> <img src="/img/Ladies/GE-SA835-01X.JPG" alt="Glossey Exports" />
+									<div class="gallery-overlay">
+										<div class="gallery-overlay-text"> <span class="gallery-button">
+                        <a href="/img/Ladies/GE-SA835-01X.JPG" class="gallery-photo"><i class="icofont-image"></i></a>
+                        </span> </div>
+									</div>
+								</div>
+							</div>
+							<div class="col-xs-12 col-sm-6 col-md-3 filtr-item Ladies">
+								<div class="gallery-item"> <img src="/img/Ladies/GE-RN062-99X.JPG" alt="Glossey Exports" />
+									<div class="gallery-overlay">
+										<div class="gallery-overlay-text"> <span class="gallery-button">
+                        <a href="/img/Ladies/GE-RN062-99X.JPG" class="gallery-photo"><i class="icofont-image"></i></a>
+                        </span> </div>
+									</div>
+								</div>
+							</div>
+							<div class="col-xs-12 col-sm-6 col-md-3 filtr-item Gents">
+								<div class="gallery-item"> <img src="/img/Gents/GE-9773.JPG" alt="Glossey Exports" />
+									<div class="gallery-overlay">
+										<div class="gallery-overlay-text"> <span class="gallery-button">
+                        <a href="/img/Gents/GE-9773.JPG" class="gallery-photo"><i class="icofont-image"></i></a>
+                        </span> </div>
+									</div>
+								</div>
+							</div>
+							<div class="col-xs-12 col-sm-6 col-md-3 filtr-item Gents">
+								<div class="gallery-item"> <img src="/img/Gents/STY.NO-TAPL-1819-5155.jpg" alt="Glossey Exports" />
+									<div class="gallery-overlay">
+										<div class="gallery-overlay-text"> <span class="gallery-button">
+                        <a href="/img/Gents/STY.NO-TAPL-1819-5155.jpg" class="gallery-photo"><i class="icofont-image"></i></a>
+                        </span> </div>
+									</div>
+								</div>
+							</div>
+							<div class="col-xs-12 col-sm-6 col-md-3 filtr-item Gents">
+								<div class="gallery-item"> <img src="/img/Gents/STY.NO-TAPL-1819-5155-ATLANTIS.jpg" alt="Glossey Exports" />
+									<div class="gallery-overlay">
+										<div class="gallery-overlay-text"> <span class="gallery-button">
+                        <a href="/img/Gents/STY.NO-TAPL-1819-5155-ATLANTIS.jpg" class="gallery-photo"><i class="icofont-image"></i></a>
+                        </span> </div>
+									</div>
+								</div>
+							</div>
+							<div class="col-xs-12 col-sm-6 col-md-3 filtr-item Gents">
+								<div class="gallery-item"> <img src="/img/Gents/STY.NO-TAPL-1819-5155-GUNS.jpg" alt="Glossey Exports" />
+									<div class="gallery-overlay">
+										<div class="gallery-overlay-text"> <span class="gallery-button">
+                        <a href="/img/Gents/STY.NO-TAPL-1819-5155-GUNS.jpg" class="gallery-photo"><i class="icofont-image"></i></a>
+                        </span> </div>
+									</div>
+								</div>
+							</div>
+							<div class="col-xs-12 col-sm-6 col-md-3 filtr-item Gents">
+								<div class="gallery-item"> <img src="/img/Gents/STY.NO-TAPL-1819-5155-STRONGER.jpg" alt="Glossey Exports" />
+									<div class="gallery-overlay">
+										<div class="gallery-overlay-text"> <span class="gallery-button">
+                        <a href="/img/Gents/STY.NO-TAPL-1819-5155-STRONGER.jpg" class="gallery-photo"><i class="icofont-image"></i></a>
+                        </span> </div>
+									</div>
+								</div>
+							</div>
+							<div class="col-xs-12 col-sm-6 col-md-3 filtr-item Gents">
+								<div class="gallery-item"> <img src="/img/Gents/STY.NO-TAPL-1819-5177-ECO-FRIENDLY.jpg" alt="Glossey Exports" />
+									<div class="gallery-overlay">
+										<div class="gallery-overlay-text"> <span class="gallery-button">
+                        <a href="/img/Gents/STY.NO-TAPL-1819-5177-ECO-FRIENDLY.jpg" class="gallery-photo"><i class="icofont-image"></i></a>
+                        </span> </div>
+									</div>
+								</div>
+							</div>
+							<div class="col-xs-12 col-sm-6 col-md-3 filtr-item Gents">
+								<div class="gallery-item"> <img src="/img/Gents/PG-20796.JPG" alt="Glossey Exports" />
+									<div class="gallery-overlay">
+										<div class="gallery-overlay-text"> <span class="gallery-button">
+                        <a href="/img/Gents/PG-20796.JPG" class="gallery-photo"><i class="icofont-image"></i></a>
+                        </span> </div>
+									</div>
+								</div>
+							</div>
+							<div class="col-xs-12 col-sm-6 col-md-3 filtr-item Gents">
+								<div class="gallery-item"> <img src="/img/Gents/PG-20801.JPG" alt="Glossey Exports" />
+									<div class="gallery-overlay">
+										<div class="gallery-overlay-text"> <span class="gallery-button">
+                        <a href="/img/Gents/PG-20801.JPG" class="gallery-photo"><i class="icofont-image"></i></a>
+                        </span> </div>
+									</div>
+								</div>
+							</div>
+							<div class="col-xs-12 col-sm-6 col-md-3 filtr-item Gents">
+								<div class="gallery-item"> <img src="/img/Gents/PG-22009.JPG" />
+									<div class="gallery-overlay">
+										<div class="gallery-overlay-text"> <span class="gallery-button">
+                        <a href="/img/Gents/PG-22009.JPG" class="gallery-photo"><i class="icofont-image"></i></a>
+                        </span> </div>
+									</div>
+								</div>
+							</div>
+							<div class="col-xs-12 col-sm-6 col-md-3 filtr-item Gents">
+								<div class="gallery-item"> <img src="/img/Gents/PG-22011.JPG" alt="Glossey Exports" />
+									<div class="gallery-overlay">
+										<div class="gallery-overlay-text"> <span class="gallery-button">
+                        <a href="/img/Gents/PG-22011.JPG" class="gallery-photo"><i class="icofont-image"></i></a>
+                        </span> </div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+			<div class="project-details-page pt-50 pb-70">
+				<div class="container">
+					<div class="project-details-desc">
+						<center>
+							<h2 style="text-transform:none;">We have had the pleasure of working with some happy clients.</h2></center>
+					</div>
+					<div class="row">
+						<div class="col-md-2"> <img src="img/Client1.png" alt="" /> </div>
+						<div class="col-md-2"> <img src="img/Client2.png" alt="" /> </div>
+						<div class="col-md-2"> <img src="img/Client3.png" alt="" /> </div>
+						<div class="col-md-2"> <img src="img/Client4.png" alt="" /> </div>
+						<div class="col-md-2"> <img src="img/Client5.png" alt="" /> </div>
+						<div class="col-md-2"> <img src="img/Client6.png" alt="" /> </div>
+					</div>
+				</div>
+			</div>
+			<footer class="footer">
+				<div class="footer-overlay"></div>
+				<div class="footer-sec">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-3 col-sm-6">
+								<div class="footer-wedget-one">
+									<h2>Company Info</h2>
+									<a href="#" class="footer-logo"><img src="img/ft-logo.png" alt="" /></a>
+									<p align="justify">Glossey exports is expertise in cotton/woven knitwear such as T-Shirts, Home Wear for Men, Women and Kids.</p>
+									</div>
+							</div>
+							<div class="col-md-3 col-sm-6">
+								<div class="footer-widget-menu">
+									<h2>our services</h2>
+									<ul>
+										<li><a href="#">Sampling Services</a></li>
+										<li><a href="#">Quality Assurance</a></li>
+										<li><a href="#">Pricing Assurance</a></li>
+										<li><a href="#">Delivery Assurance</a></li>
+										<li><a href="#">Flexible Manufacturing</a></li>
+										<li><a href="#">Speed Market</a></li>
+									</ul>
+								</div>
+							</div>
+							<div class="col-md-2 col-sm-6">
+								<div class="footer-widget-menu">
+									<h2>useful link</h2>
+									<ul>
+										<li><a href="about.php">about us</a></li>
+										<li><a href="service.php">services</a></li>
+										<li><a href="product.php">products</a></li>
+										<li><a href="contact.php">Contact Us</a></li>
+									</ul>
+								</div>
+							</div>
+							<div class="col-md-4 col-sm-6">
+								<div class="footer-wedget-four">
+									<h2>contact form </h2>
+									<div class="footer-contact-inner">
+										<div class="footer-contact-info">
+											<div class="footer-contact-info-icon"> <i class="icofont-google-map"></i> </div>
+											<div class="footer-contact-info-text"> <span>Glossey Exports,</span> <span>129-Balaji Nagar, Rackkiya Palayam,</span> <span>Avinashi-641 654, Tamilnadu, India</span> </div>
+										</div>
+									</div>
+									<div class="footer-contact-inner">
+										<div class="footer-contact-info">
+											<div class="footer-contact-info-icon"> <i class="icofont-email"></i> </div>
+											<div class="footer-contact-info-text"> <span>glosseyexports.kumaran [at] gmail [dot] com</span> </div>
+										</div>
+									</div>
+									<div class="footer-contact-inner">
+										<div class="footer-contact-info">
+											<div class="footer-contact-info-icon"> <i class="icofont-telephone"></i> </div>
+											<div class="footer-contact-info-text"> <span>+91 (0)421 4328182</span> </div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="footer-bottom-sec">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-8 col-sm-12">
+								<div class="copy-right"> <span>&copy; 2022 glossey exports. all right reserved </span> </div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</footer>
+			<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+			<script src="js/jquery-2.2.4.min.js"></script>
+			<script src="js/bootstrap.min.js"></script>
+			<script src="js/isotope.pkgd.min.js"></script>
+			<script src="js/jquery.magnific-popup.min.js"></script>
+			<script src="js/owl.carousel.min.js"></script>
+			<script src="js/owl.animate.js"></script>
+			<script src="js/jquery.scrollUp.min.js"></script>
+			<script src="js/jquery.counterup.min.js"></script>
+			<script src="js/modernizr.min.js"></script>
+			<script src="js/waypoints.min.js"></script>
+			<script src="js/jquery.meanmenu.min.js"></script>
+			<script src="js/imagesloaded.pkgd.min.js"></script>
+			<script src="js/custom.js"></script>
+	</body>
+
+	</html>
