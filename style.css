@@ -1,12 +1,1 @@
-#div_login .textbox{
-    width: 96%;
-    padding: 7px;
-}
-
-#div_login input[type=submit]{
-    padding: 7px;
-    width: 100px;
-    background-color: lightseagreen;
-    border: 0px;
-    color: white;
-}
+#div_login .textbox{width:96%;padding:7px}#div_login input[type=submit]{padding:7px;width:100px;background-color:#20b2aa;border:0px;color:#fff}
